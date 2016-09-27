@@ -4,11 +4,11 @@ namespace Hydrate
 {
     internal class ReminderService
     {
-        
+        ReminderWindow reminderWindow = null;
         System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
         public void showReminder()
         {
-            ReminderWindow reminderWindow = new ReminderWindow();
+            reminderWindow = new ReminderWindow();
             reminderWindow.Show();
         }
 
