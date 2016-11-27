@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Threading;
 
 namespace Hydrate
 {
@@ -15,12 +17,12 @@ namespace Hydrate
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnIDrankWater_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnIAmBusy_Click(object sender, EventArgs e)
         {
             this.Close();
         }

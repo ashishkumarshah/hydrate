@@ -117,4 +117,127 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblHydrateMeText.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblHydrateMeText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 18pt</value>
+  </data>
+  <data name="lblHydrateMeText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 49</value>
+  </data>
+  <data name="lblHydrateMeText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>369, 36</value>
+  </data>
+  <data name="lblHydrateMeText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblHydrateMeText.Text" xml:space="preserve">
+    <value>Time to Drink Some Water!</value>
+  </data>
+  <data name="&gt;&gt;lblHydrateMeText.Name" xml:space="preserve">
+    <value>lblHydrateMeText</value>
+  </data>
+  <data name="&gt;&gt;lblHydrateMeText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHydrateMeText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblHydrateMeText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnIDrankWater.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 307</value>
+  </data>
+  <data name="btnIDrankWater.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 23</value>
+  </data>
+  <data name="btnIDrankWater.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnIDrankWater.Text" xml:space="preserve">
+    <value>I Drank Water, Promise!</value>
+  </data>
+  <data name="&gt;&gt;btnIDrankWater.Name" xml:space="preserve">
+    <value>btnIDrankWater</value>
+  </data>
+  <data name="&gt;&gt;btnIDrankWater.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIDrankWater.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnIDrankWater.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnIAmBusy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 346</value>
+  </data>
+  <data name="btnIAmBusy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>308, 48</value>
+  </data>
+  <data name="btnIAmBusy.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnIAmBusy.Text" xml:space="preserve">
+    <value>Nevermind, I am too busy to care for my health</value>
+  </data>
+  <data name="&gt;&gt;btnIAmBusy.Name" xml:space="preserve">
+    <value>btnIAmBusy</value>
+  </data>
+  <data name="&gt;&gt;btnIAmBusy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnIAmBusy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnIAmBusy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBoxHydrateMe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 114</value>
+  </data>
+  <data name="pictureBoxHydrateMe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 178</value>
+  </data>
+  <data name="pictureBoxHydrateMe.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxHydrateMe.Name" xml:space="preserve">
+    <value>pictureBoxHydrateMe</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxHydrateMe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxHydrateMe.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxHydrateMe.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>421, 429</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ReminderWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReminderWindow</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -32,8 +32,8 @@ namespace Hydrate
         {
             // Put the icon in the system tray and allow it react to mouse clicks.			
             ni.MouseClick += new MouseEventHandler(mouseClickHandler);
-            ni.Icon = Resources.SystemTrayApp;
-            ni.Text = "Reminds you to drink water at Regular Intervals";
+            ni.Icon = Resources.giphyIcon;
+            ni.Text = Resources.SystemTrayIconMenuText;
             ni.Visible = true;
 
             // Attach a context menu.
