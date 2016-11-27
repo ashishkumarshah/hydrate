@@ -30,72 +30,57 @@ namespace Hydrate
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReminderWindow));
+            this.lblHydrateMeText = new System.Windows.Forms.Label();
+            this.btnIDrankWater = new System.Windows.Forms.Button();
+            this.btnIAmBusy = new System.Windows.Forms.Button();
+            this.pictureBoxHydrateMe = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHydrateMe)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblHydrateMeText
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 49);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(369, 36);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Time to Drink Some Water!";
+            resources.ApplyResources(this.lblHydrateMeText, "lblHydrateMeText");
+            this.lblHydrateMeText.Name = "lblHydrateMeText";
             // 
-            // button1
+            // btnIDrankWater
             // 
-            this.button1.Location = new System.Drawing.Point(50, 307);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(308, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "I Drank Water, Promise!";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            resources.ApplyResources(this.btnIDrankWater, "btnIDrankWater");
+            this.btnIDrankWater.Name = "btnIDrankWater";
+            this.btnIDrankWater.UseVisualStyleBackColor = true;
+            this.btnIDrankWater.Click += new System.EventHandler(this.btnIDrankWater_Click);
             // 
-            // button2
+            // btnIAmBusy
             // 
-            this.button2.Location = new System.Drawing.Point(50, 346);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(308, 48);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Nevermind, I am too busy to care for my health";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            resources.ApplyResources(this.btnIAmBusy, "btnIAmBusy");
+            this.btnIAmBusy.Name = "btnIAmBusy";
+            this.btnIAmBusy.UseVisualStyleBackColor = true;
+            this.btnIAmBusy.Click += new System.EventHandler(this.btnIAmBusy_Click);
             // 
-            // pictureBox1
+            // pictureBoxHydrateMe
             // 
-            this.pictureBox1.Image = global::Hydrate.Properties.Resources.giphy;
-            this.pictureBox1.Location = new System.Drawing.Point(56, 114);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(292, 178);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxHydrateMe.Image = global::Hydrate.Properties.Resources.giphy;
+            resources.ApplyResources(this.pictureBoxHydrateMe, "pictureBoxHydrateMe");
+            this.pictureBoxHydrateMe.Name = "pictureBoxHydrateMe";
+            this.pictureBoxHydrateMe.TabStop = false;
             // 
             // ReminderWindow
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(421, 429);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBoxHydrateMe);
+            this.Controls.Add(this.btnIAmBusy);
+            this.Controls.Add(this.btnIDrankWater);
+            this.Controls.Add(this.lblHydrateMeText);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ReminderWindow";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ReminderWindow";
             this.TopMost = true;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHydrateMe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,9 +88,9 @@ namespace Hydrate
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblHydrateMeText;
+        private System.Windows.Forms.Button btnIDrankWater;
+        private System.Windows.Forms.Button btnIAmBusy;
+        private PictureBox pictureBoxHydrateMe;
     }
 }

@@ -71,12 +71,39 @@ namespace Hydrate.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        internal static string AboutMenuText {
+            get {
+                return ResourceManager.GetString("AboutMenuText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Configure.
+        /// </summary>
+        internal static string ConfigureMenuText {
+            get {
+                return ResourceManager.GetString("ConfigureMenuText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Exit {
             get {
                 object obj = ResourceManager.GetObject("Exit", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exit.
+        /// </summary>
+        internal static string ExitMenuText {
+            get {
+                return ResourceManager.GetString("ExitMenuText", resourceCulture);
             }
         }
         
@@ -103,10 +130,29 @@ namespace Hydrate.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
+        internal static System.Drawing.Icon giphyIcon {
+            get {
+                object obj = ResourceManager.GetObject("giphyIcon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
         internal static System.Drawing.Icon SystemTrayApp {
             get {
                 object obj = ResourceManager.GetObject("SystemTrayApp", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reminds you to drink water at Regular Intervals.
+        /// </summary>
+        internal static string SystemTrayIconMenuText {
+            get {
+                return ResourceManager.GetString("SystemTrayIconMenuText", resourceCulture);
             }
         }
     }
